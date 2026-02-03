@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Tutor AI</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Floating Tutor Icon -->
+    <div id="chatbot-icon" title="Open My Tutor AI">AI</div>
+
+    <!-- Tutor Container -->
+    <div id="chatbot-container" class="hidden">
+      <div id="chatbot-header">
+        <span>My Tutor AI</span>
+        <button id="close-btn">&times;</button>
+      </div>
+
+      <div id="chatbot-body">
+        <div id="chatbot-messages">
+          <div class="message bot">
+            I’m your Tutor AI, developed by revisionmade.fun.
+            Ask me anything about your revision.
+          </div>
+        </div>
+      </div>
+
+      <div id="chatbot-input-container">
+        <input
+          type="text"
+          id="chatbot-input"
+          placeholder="Ask a question..."
+        />
+        <button id="send-btn">Ask</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
